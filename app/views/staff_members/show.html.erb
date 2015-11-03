@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Max hours per day:</strong>
+  <%= @staff_member.max_hours_per_day %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @staff_member.name %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @staff_member.code %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @staff_member.score %>
+</p>
+
+<p>
+  <strong>Min gap:</strong>
+  <%= @staff_member.min_gap %>
+</p>
+
+<p>
+  <strong>Max gap:</strong>
+  <%= @staff_member.max_gap %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @staff_member.type %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @staff_member.email %>
+</p>
+
+<%= link_to 'Edit', edit_staff_member_path(@staff_member) %> |
+<%= link_to 'Back', staff_members_path %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Year Classes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Code</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @year_classes.each do |year_class| %>
+      <tr>
+        <td><%= year_class.type %></td>
+        <td><%= year_class.code %></td>
+        <td><%= link_to 'Show', year_class %></td>
+        <td><%= link_to 'Edit', edit_year_class_path(year_class) %></td>
+        <td><%= link_to 'Destroy', year_class, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Year class', new_year_class_path %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @room.type %>
+</p>
+
+<p>
+  <strong>Capacity:</strong>
+  <%= @room.capacity %>
+</p>
+
+<p>
+  <strong>Projector support:</strong>
+  <%= @room.projector_support %>
+</p>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>

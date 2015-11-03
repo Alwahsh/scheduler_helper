@@ -1,0 +1,2 @@
+module SegmentCollectionsHelper
+end

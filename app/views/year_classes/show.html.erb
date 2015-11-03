@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @year_class.type %>
+</p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @year_class.code %>
+</p>
+
+<%= link_to 'Edit', edit_year_class_path(@year_class) %> |
+<%= link_to 'Back', year_classes_path %>

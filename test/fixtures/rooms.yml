@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  capacity: 
+  projector_support: false
+
+two:
+  type: 
+  capacity: 
+  projector_support: false

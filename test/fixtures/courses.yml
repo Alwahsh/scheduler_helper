@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  code: MyString
+  type: 
+  lecture_length: 9.99
+  lecs_per_week: 9.99
+  secs_per_week: 9.99
+  section_length: 9.99
+
+two:
+  name: MyString
+  code: MyString
+  type: 
+  lecture_length: 9.99
+  lecs_per_week: 9.99
+  secs_per_week: 9.99
+  section_length: 9.99
