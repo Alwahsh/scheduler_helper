@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :segment_collections
-  resources :day_collections
+  get 'home/index'
+
+  get 'home_controller/index'
+
   resources :segments
   resources :staff_members
   resources :systems
@@ -13,7 +15,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'home#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h1>Home</h1>
+</div>
+
+<% @controller_list.each do |controller| %>
+  <% next if controller == "application" %>
+  <%= link_to(controller.capitalize , controller: controller, action: 'index') %>
+  <br>
+<% end %>
