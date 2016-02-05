@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :departments
   get 'home/index'
 
   get 'home_controller/index'
